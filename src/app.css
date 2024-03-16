@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    user-select: none;
+    background-color: rgb(230, 230, 230);
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    padding: 0.3rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #70b8f7;
+    
+    &:hover{
+        opacity: 0.8;
+    }
+
+    &:active{
+        opacity: 1;
+    }
+}
+
+.formContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainForm{
+    width: fit-content;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.formHeading{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-top: 0.7rem;
+    padding-bottom: 1.4rem;
+}
+
+.formInput{
+    width: 15rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.formFirstBtn{
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.formSecondBtn{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.errDiv{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.err404{
+    font-size: 2.5rem;
+}
+
+.errText{
+    font-size: 2rem;
+}
+
+.errLink{
+    text-decoration: none;
+    color: black;
+}

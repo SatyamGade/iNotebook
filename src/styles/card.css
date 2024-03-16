@@ -1,0 +1,22 @@
+.cardHandlers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#markAsDone{
+    cursor: pointer;
+}
+
+.card{
+    background-color: whitesmoke;
+}
+
+.card-title{
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+}
+
+.card-text{
+    font-size: 1.05rem;
+}

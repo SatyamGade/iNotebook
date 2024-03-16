@@ -1,0 +1,23 @@
+header{
+    padding: 0.8rem 1rem;
+    background-color: whitesmoke;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+
+.btnsContainer{
+    display: flex;
+    gap: 0.5rem;
+}
