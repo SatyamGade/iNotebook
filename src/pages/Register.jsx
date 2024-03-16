@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import { JWTContext } from '../contexts/JwtProvider';
 
-const URL = "http://localhost:5000/api/auth/register";
+const URL = "https://i-notebook-backend-weld.vercel.app/api/auth/register";
 
 const Register = () => {
 
