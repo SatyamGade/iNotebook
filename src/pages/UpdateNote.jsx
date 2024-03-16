@@ -24,7 +24,7 @@ const UpdateNote = () => {
   const getNote = async () =>{
     try {
       const id = localStorage.getItem("noteId");
-      const response = await fetch(`http://localhost:5000/api/note/getnote/${id}`,{
+      const response = await fetch(`https://i-notebook-backend-weld.vercel.app/api/note/getnote/${id}`,{
         method: "GET",
         headers:{
           Authorization: authToken
@@ -49,7 +49,7 @@ const UpdateNote = () => {
     e.preventDefault();
     try {
       const id = localStorage.getItem("noteId");
-      const response = await fetch(`http://localhost:5000/api/note/updatenote/${id}`,{
+      const response = await fetch(`https://i-notebook-backend-weld.vercel.app/api/note/updatenote/${id}`,{
         method: "PUT",
         headers:{
           Authorization: authToken,
