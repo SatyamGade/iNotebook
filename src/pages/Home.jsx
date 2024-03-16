@@ -5,7 +5,7 @@ import { JWTContext } from '../contexts/JwtProvider';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify'
 
-const URL = "http://localhost:5000/api/note";
+const URL = "https://i-notebook-backend-weld.vercel.app/api/note";
 
 const Home = () => {
 
